@@ -45,10 +45,6 @@ const Navbar = () => {
             </a>
           ))}
         </div>
-
-        <button className="hidden md:block py-2 px-6 bg-olive text-white rounded-full text-[10px] tracking-widest uppercase hover:bg-terracotta transition-all duration-500 shadow-sm">
-          Technical Brief
-        </button>
       </div>
     </nav>
   );
@@ -69,9 +65,9 @@ const Hero = () => {
         className="absolute inset-0 z-0 opacity-10 pointer-events-none flex items-center justify-center"
       >
         <img 
-          src="front cover.22.22.png" 
+          src="front cover.png" 
           alt="Technical glass and water" 
-          className="w-full h-full object-contain scale-90"
+          className="w-full h-full object-contain scale-90 opacity-15"
         />
       </motion.div>
 
@@ -93,20 +89,6 @@ const Hero = () => {
         >
           An integrated aquaponics system designed to sustainably grow supplemental nutrition through a symbiotic relationship between aquatic and plant cultivation. The system consists of a fish tank supporting aquaculture and algae growth, with an upper hydroponic grow bed that utilizes nutrient-rich water circulated from the aquatic environment. Environmental sensors and embedded control systems maintain water temperature, plant temperature, and irrigation flow to ensure stable growing conditions.
         </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.8 }}
-          className="flex flex-col md:flex-row items-center justify-center gap-6"
-        >
-          <button className="bg-olive text-white py-4 px-10 rounded-full font-sans tracking-widest uppercase text-[10px] shadow-lg hover:bg-terracotta transition-all duration-500">
-            Theory of Operation
-          </button>
-          <button className="text-olive py-4 px-10 rounded-full font-sans tracking-widest uppercase text-[10px] border border-olive/20 hover:border-olive transition-all duration-500">
-            View Research Data
-          </button>
-        </motion.div>
       </div>
 
       <motion.div 
@@ -183,13 +165,6 @@ const TechSpecs = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div>
-            <motion.div 
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              className="inline-block px-3 py-1 border border-white/20 rounded-full mb-8"
-            >
-              <span className="text-[9px] tracking-widest uppercase text-white/60">Research & Hardware</span>
-            </motion.div>
             <h2 className="text-5xl md:text-6xl font-serif italic mb-10">The Intelligence Behind the Growth.</h2>
             
             <div className="space-y-12">
@@ -250,7 +225,6 @@ const MissionImpact = () => (
           
           <div className="space-y-6">
             <div className="p-6 border border-olive/5 rounded-2xl bg-sage/5">
-               <span className="text-terracotta font-serif italic text-lg mb-2 block">Social Mandate</span>
                <p className="text-xs text-sage leading-relaxed">Providing supplemental nutrition to low-access urban populations through scalable vertical architecture.</p>
             </div>
           </div>
@@ -487,62 +461,6 @@ const ImpactGallery = () => (
   </section>
 );
 
-const Footer = () => (
-  <footer className="bg-background pt-32 pb-16 px-6 border-t border-olive/5">
-    <div className="max-w-7xl mx-auto">
-      <div className="grid md:grid-cols-4 gap-16 mb-24">
-        <div className="md:col-span-2">
-          <div className="flex items-center space-x-3 mb-8">
-            <div className="w-10 h-10 rounded-full border border-terracotta flex items-center justify-center">
-              <div className="w-2 h-2 rounded-full bg-terracotta" />
-            </div>
-            <span className="text-3xl font-serif tracking-tight text-olive font-semibold italic">Hydro-Homies</span>
-          </div>
-          <h3 className="text-xl font-serif mb-8 max-w-sm italic">Join the coalition for urban food sovereignty.</h3>
-          <div className="flex border-b border-olive/20 pb-4 max-w-md group focus-within:border-olive transition-colors">
-            <input 
-              type="email" 
-              placeholder="Newsletter Signup" 
-              className="bg-transparent w-full font-sans font-light tracking-widest text-xs focus:outline-none placeholder:text-sage/40 uppercase"
-            />
-            <button className="text-sage hover:text-olive transition-colors">
-              <ArrowRight size={20} />
-            </button>
-          </div>
-          <p className="text-[10px] text-sage/40 mt-6 tracking-widest uppercase">Research Partnership: Ag Enjoyers, CMU ECE</p>
-        </div>
-        
-        <div>
-          <h4 className="font-sans text-[10px] tracking-[0.4em] uppercase text-sage mb-8">Research</h4>
-          <ul className="space-y-4 font-serif text-lg italic text-olive/80">
-            <li><a href="#" className="hover:text-terracotta transition-colors">Whitepapers</a></li>
-            <li><a href="#" className="hover:text-terracotta transition-colors">System Schema</a></li>
-            <li><a href="#" className="hover:text-terracotta transition-colors">Hardware Logs</a></li>
-            <li><a href="#" className="hover:text-terracotta transition-colors">Impact Data</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="font-sans text-[10px] tracking-[0.4em] uppercase text-sage mb-8">Network</h4>
-          <div className="flex space-x-6">
-            <a href="#" className="text-sage hover:text-olive transition-colors"><Instagram size={20} /></a>
-            <a href="#" className="text-sage hover:text-olive transition-colors"><Twitter size={20} /></a>
-            <a href="#" className="text-sage hover:text-olive transition-colors"><Facebook size={20} /></a>
-          </div>
-        </div>
-      </div>
-      
-      <div className="flex flex-col md:flex-row justify-between items-center border-t border-olive/5 pt-12 text-[9px] tracking-[0.3em] uppercase text-sage/50">
-        <p>&copy; {new Date().getFullYear()} Hydro-Homies. Project Resilience-01.</p>
-        <div className="flex space-x-8 mt-6 md:mt-0">
-          <a href="#" className="hover:text-olive">Privacy Documentation</a>
-          <a href="#" className="hover:text-olive">Ethics Statement</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-);
-
 export default function App() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -562,7 +480,6 @@ export default function App() {
       <TechSpecs />
       <MissionImpact />
       <ImpactGallery />
-      <Footer />
     </main>
   );
 }

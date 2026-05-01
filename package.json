@@ -1,9 +1,9 @@
 {
-  "name": "HydroHomies",
+  "name": "react-example",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://keck01101.github.io/hydrohomies",
   "type": "module",
-  "homepage": "https://keck01101.github.io/hydrohomies/",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
