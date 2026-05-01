@@ -69,7 +69,7 @@ const Hero = () => {
         className="absolute inset-0 z-0 opacity-10 pointer-events-none flex items-center justify-center"
       >
         <img 
-          src="/images/front cover.22.22.png" 
+          src="front cover.22.22.png" 
           alt="Technical glass and water" 
           className="w-full h-full object-contain scale-90"
         />
@@ -223,7 +223,7 @@ const TechSpecs = () => {
               className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl"
             >
                <img 
-                src="/images/system.17.04.png" 
+                src="system.17.04.png" 
                 alt="System Diagram" 
                 className="w-full h-auto object-contain opacity-80"
               />
@@ -264,7 +264,7 @@ const MissionImpact = () => (
                 className="relative aspect-video rounded-3xl overflow-hidden shadow-xl"
               >
                 <img 
-                  src="/images/malnutrition.15.54.png" 
+                  src="malnutrition.15.54.png" 
                   alt="Urban community farming" 
                   className="w-full h-full object-contain"
                 />
@@ -277,7 +277,7 @@ const MissionImpact = () => (
                 className="relative aspect-video rounded-3xl overflow-hidden shadow-xl"
               >
                 <img 
-                  src="/images/map 1.15.39.png" 
+                  src="map 1.15.39.png" 
                   alt="Research documentation" 
                   className="w-full h-full object-contain"
                 />
@@ -323,7 +323,7 @@ const ImpactGallery = () => (
         >
           <div className="aspect-[3/4] overflow-hidden rounded-3xl bg-sage/5 mb-8 flex items-center justify-center">
             <img 
-              src="/images/imagine of future.16.01.png" 
+              src="imagine of future.16.01.png" 
               alt="Vertical growth unit" 
               className="max-w-full max-h-full object-contain grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
             />
@@ -345,7 +345,7 @@ const ImpactGallery = () => (
           >
             <div className="aspect-[3/4] overflow-hidden rounded-3xl bg-sage/5 mb-8 flex items-center justify-center">
               <img 
-                src="/images/rock wool trace.16.15.png" 
+                src="rock wool trace.16.15.png" 
                 alt="Indoor farming lab" 
                 className="max-w-full max-h-full object-contain grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
               />
@@ -361,7 +361,7 @@ const ImpactGallery = () => (
           >
             <div className="aspect-[3/4] overflow-hidden rounded-3xl bg-sage/5 mb-8 flex items-center justify-center">
               <img 
-                src="/images/time line.16.38.png" 
+                src="time line.16.38.png" 
                 alt="System interface" 
                 className="max-w-full max-h-full object-contain grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
               />
@@ -377,7 +377,7 @@ const ImpactGallery = () => (
           >
             <div className="aspect-[3/4] overflow-hidden rounded-3xl bg-sage/5 mb-8 flex items-center justify-center">
               <img 
-                src="/images/system explaine.16.51.png" 
+                src="system explaine.16.51.png" 
                 alt="Microgreen growth" 
                 className="max-w-full max-h-full object-contain grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
               />
@@ -393,7 +393,7 @@ const ImpactGallery = () => (
           >
             <div className="aspect-[3/4] overflow-hidden rounded-3xl bg-sage/5 mb-8 flex items-center justify-center">
               <img 
-                src="/images/iterations.16.59.png" 
+                src="iterations.16.59.png" 
                 alt="System plumbing" 
                 className="max-w-full max-h-full object-contain grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
               />
@@ -409,7 +409,7 @@ const ImpactGallery = () => (
           >
             <div className="aspect-[3/4] overflow-hidden rounded-3xl bg-sage/5 mb-8 flex items-center justify-center">
               <img 
-                src="/images/system.17.04.png" 
+                src="system.17.04.png" 
                 alt="Data visualization" 
                 className="max-w-full max-h-full object-contain grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
               />
@@ -425,7 +425,7 @@ const ImpactGallery = () => (
           >
             <div className="aspect-[3/4] overflow-hidden rounded-3xl bg-sage/5 mb-8 flex items-center justify-center">
               <img 
-                src="/images/assemble.17.40.png" 
+                src="assemble.17.40.png" 
                 alt="Lab setup" 
                 className="max-w-full max-h-full object-contain grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
               />
@@ -441,7 +441,7 @@ const ImpactGallery = () => (
           >
             <div className="aspect-[3/4] overflow-hidden rounded-3xl bg-sage/5 mb-8 flex items-center justify-center">
               <img 
-                src="/images/microgreem.17.46.png" 
+                src="microgreem.17.46.png" 
                 alt="Sensor module" 
                 className="max-w-full max-h-full object-contain grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
               />
@@ -457,7 +457,7 @@ const ImpactGallery = () => (
           >
             <div className="aspect-[3/4] overflow-hidden rounded-3xl bg-sage/5 mb-8 flex items-center justify-center">
               <img 
-                src="/images/section.17.59.png" 
+                src="section.17.59.png" 
                 alt="Architecture diagram" 
                 className="max-w-full max-h-full object-contain grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
               />
@@ -473,7 +473,7 @@ const ImpactGallery = () => (
           >
             <div className="aspect-[3/4] overflow-hidden rounded-3xl bg-sage/5 mb-8 flex items-center justify-center">
               <img 
-                src="/images/explode.17.24.png" 
+                src="explode.17.24.png" 
                 alt="System explosion" 
                 className="max-w-full max-h-full object-contain grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
               />
