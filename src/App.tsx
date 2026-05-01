@@ -107,7 +107,7 @@ const SymbiosisTrinity = () => (
   <section id="symbiosis" className="py-32 px-6 max-w-7xl mx-auto border-b border-olive/5">
     <div className="mb-20 text-center">
       <h2 className="text-4xl md:text-5xl font-serif mb-6 italic">The Biological Trinity</h2>
-      <p className="max-w-xl mx-auto text-sage font-light">As detailed in Fig. 1 of the operation theory, our system creates a perfect loop between aquatic life, oxygen-producing algae, and high-nutrition microgreens.</p>
+      <p className="max-w-xl mx-auto text-sage font-light">As detailed in our theory of operation, our system creates a perfect loop between aquatic life, oxygen-producing algae, and high-nutrition microgreens.</p>
     </div>
     
     <div className="grid md:grid-cols-3 gap-16">
