@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "EB Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-background: #F9F8F5;
+  --color-olive: #3B3F36;
+  --color-sage: #727D71;
+  --color-forest: #2D392E;
+  --color-terracotta: #A66E4E;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-olive font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+.nav-link {
+  @apply relative py-1 text-sm tracking-widest uppercase text-sage hover:text-olive transition-colors duration-300;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute bottom-0 left-1/2 w-0 h-[1px] bg-olive transition-all duration-300 -translate-x-1/2;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
